@@ -7,6 +7,6 @@ wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip -P /tmp
 echo "Unzip Ngrok"
 unzip /tmp/ngrok-stable-linux-amd64.zip -d /tmp/
 echo "Add Key Auth"
-/tmp/ngrok authtoken 1XkoKNLcyiPECcQfGUjrTVzN64P_7tv2YgC4DSnazyVtpCpHm
+/tmp/ngrok authtoken 1Zvun9ECsBZe86W6gm3jIDkERfF_6E3FU8yjaAFPiyvmdcmE2
 echo "Run Ngrok for SSH"
 /tmp/ngrok tcp 22
