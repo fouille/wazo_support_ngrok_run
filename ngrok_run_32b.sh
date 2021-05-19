@@ -1,6 +1,7 @@
 #/bin/sh
 #Install and Run Wazo Support
 echo "Install Dev SSH Keys"
+apt update
 apt install wazo-dev-ssh-pubkeys wget unzip -y
 echo "Download Ngrok to /tmp"
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-386.zip -P /tmp
